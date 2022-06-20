@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QuickLoan</string>
+    <string name="text_username">Имя пользователя</string>
+    <string name="text_password">Пароль</string>
+    <string name="text_sign_in">Войти в систему</string>
+    <string name="how_to_apply_for_a_loan">Как подать заявку на получение кредита</string>
+    <string name="apply_for_a_personal_loan">Подать заявку на займ</string>
+    <string name="Events">События</string>
+    <string name="app_event_tracking">Список событий</string>
+    <string name="registration">Регистрация</string>
+    <string name="loan_terms">Условия кредитования:</string>
+    <string name="amount_percent_for_fragment">Сумма: %1$s\nПроцент: %2$s\nПериод: %3$s</string>
+    <string name="info_list_for_fragment">Дата регистрации: %1$s\nСумма: %2$s\nПроцент: %3$s\nПериод: %4$s</string>
+    <string name="request_for_a_loan">Запрос на получение кредита</string>
+    <string name="enter_your_phone_number">Введите свой номер телефона</string>
+    <string name="enter_your_last_name">Введите свою фамилию</string>
+    <string name="enter_your_name">Введите свое имя</string>
+    <string name="specify_the_loan_amount">Укажите сумму</string>
+    <string name="max_amount_percent_period">Максимальная сумма: \nПроцент: \nПериод:</string>
+    <string name="digits_edit">0123456789</string>
+    <string name="loan_status_for_fragment">Статус кредита: %1$s</string>
+    <string name="all_date_loan_for_fragment">Дата регистрации: %1$s\nСумма: %2$s\nПериод: %3$s\nПроцент: %4$s\nИмя: %5$s\nФамилия: %6$s\nId: %7$s\nНомер телефона: %8$s</string>
+    <string name="registration_date_amount_period">Registration date: \nAmount -</string>
+    <string name="registration_date_all">Дата регистрации: \nСумма: \nПериод:\nПроцент:\nИмя: \nФамилия: \nСтатус:\nId:\nНомер телефона:</string>
+    <string name="how_to_get_a_loan">Как получить кредит:</string>
+    <string name="to_get_a_loan_you_need">Чтобы получить кредит, вам необходимо связаться с любым сотрудником банка и предоставить идентификационный номер</string>
+    <string name="invalid_username">Неверное имя пользователя</string>
+    <string name="invalid_password">Пароль должен содержать более 5 символов</string>
+    <string name="login_failed">"Ошибка входа"</string>
+    <string name="unknown_failed">"Неизместная ошибка"</string>
+    <string name="registration_user_message">Зарегистрирован пользователь: %1$s\n\nРоль: %2$s</string>
+
+    <string name="invalid_request_400">Неверный запрос</string>
+    <string name="incorrect_authorization_401">Были введены неверные данные авторизации</string>
+    <string name="no_access_to_the_resource_403">Нет доступа к ресурсу</string>
+    <string name="resource_is_missing_404">Пока еще таких не видели, попробуйте зарегистрироваться</string>
+    <string name="method_not_allowed_405">Способ не назрешен</string>
+    <string name="enter_the_amount_500">Введите сумму</string>
+    <string name="unknown_error_0">Неизвестная ошибка</string>
+
+    <string name="welcome">Добро пожаловать</string>
+    <string name="close">закрыть</string>
+    <string name="loan_status">Статус кредита:</string>
+
+    <string name="registered">Зарегистрирован</string>
+    <string name="approved">Одобрен</string>
+    <string name="rejected">Отказан</string>
+    <string name="unknown_state">Ошибка статуса</string>
+
+    <string name="onboarding_welcome_title">Добро пожаловать!</string>
+    <string name="onboarding_welcome_message">Приветствую. \nПросмотрите иснтрукцию, как получить кредит!</string>
+
+    <string name="onboarding_step1_title">Шаг первый</string>
+    <string name="onboarding_step1_message">Чтобы оформить кредит, нажмите на кнопку \"Подать заявку на займ\"</string>
+
+    <string name="onboarding_step2_title">Шаг второй</string>
+    <string name="onboarding_step2_message">Ознакомьтесь с условиями кредитования</string>
+
+    <string name="onboarding_step3_title">Шаг третий</string>
+    <string name="onboarding_step3_message">Введите свои персональные данные с учетом предлагаемых условий, для регистрации заявки. \nДалее нажмите на кнопку \"Запрос на получение кредита\"</string>
+
+    <string name="onboarding_step4_title">Шаг четвертый</string>
+    <string name="onboarding_step4_message">Ознакомьтесь со статусом заявки и с тем, как получить кредит</string>
+
+    <string name="onboarding_step5_title">Шаг пятый</string>
+    <string name="onboarding_step5_message">На главном экране вы всегда можете просмотреть список ваших заявок. \n Полную информацию о заявке выможете просмотреть нажав на неё</string>
+
+    <string name="language_ru">Ru</string>
+    <string name="language_en">En</string>
+
+    <string name="save_str">Сохранить</string>
+
+    <string name="send_message_str">Необходимо погасить ваш займ от:</string>
+</resources>

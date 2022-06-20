@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container_fragment_start"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/margin_view"
+    tools:context=".ui.fragments.LoanStatus">
+
+    <ImageView
+        android:id="@+id/image_view_loan"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/margin_image"
+        android:scaleType="matrix"
+        android:src="@drawable/login_sign_header"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/card_loan_conditions"
+        app:layout_constraintVertical_chainStyle="spread_inside" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_loan_conditions"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:minHeight="@dimen/margin_image"
+        android:layout_marginBottom="@dimen/margin_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btn_close_status"
+        app:layout_constraintTop_toBottomOf="@+id/image_view_loan">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_text"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/loans_status_all"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/text_padding"
+                android:text="@string/loan_status"
+                android:textAllCaps="true"
+                android:textSize="@dimen/text_size_big" />
+
+            <TextView
+                android:id="@+id/list_of_loans_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/registration_date_all" />
+
+            <TextView
+                android:id="@+id/how_to_get_a_loan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/text_padding"
+                android:textSize="@dimen/text_size_big"
+                android:textAllCaps="true"
+                android:text="@string/how_to_get_a_loan" />
+
+            <TextView
+                android:id="@+id/text_how_to_get_a_loan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/to_get_a_loan_you_need" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btn_close_status"
+        style="@style/ButtonBlue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart = "0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/close"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

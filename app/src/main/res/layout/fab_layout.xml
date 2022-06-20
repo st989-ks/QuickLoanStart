@@ -1,0 +1,61 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_relogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        style="@style/FabStyle"
+        android:src="@drawable/ic_logout"
+        android:visibility="invisible"
+        app:fabSize="mini"
+        tools:ignore="ContentDescription" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_events"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        style="@style/FabStyle"
+        android:src="@drawable/ic_event"
+        android:visibility="invisible"
+        app:fabSize="mini"
+        tools:ignore="ContentDescription"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_update_the_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        style="@style/FabStyle"
+        android:src="@drawable/ic_sync"
+        android:visibility="invisible"
+        app:fabSize="mini"
+        tools:ignore="ContentDescription"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_manual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        style="@style/FabStyle"
+        android:src="@drawable/ic_faq"
+        android:visibility="invisible"
+        app:fabSize="mini"
+        tools:ignore="ContentDescription"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        style="@style/FabStyle"
+        android:src="@drawable/ic_language"
+        android:visibility="invisible"
+        app:fabSize="mini"
+        tools:ignore="ContentDescription"/>
+</FrameLayout>

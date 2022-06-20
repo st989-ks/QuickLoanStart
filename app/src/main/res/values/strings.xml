@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">QuickLoanStart</string>
+    <string name="text_username">Username</string>
+    <string name="text_password">Password</string>
+    <string name="text_sign_in">Sign In</string>
+    <string name="how_to_apply_for_a_loan">How to apply for a loan</string>
+    <string name="apply_for_a_personal_loan">Apply for a Personal Loan</string>
+    <string name="Events">Events</string>
+    <string name="app_event_tracking">App Event Tracking</string>
+    <string name="registration">Registration</string>
+    <string name="loan_terms">Loan terms:</string>
+    <string name="amount_percent_for_fragment">Amount: %1$s\nPercent: %2$s\nPeriod: %3$s</string>
+    <string name="info_list_for_fragment">Registration date: %1$s\nAmount: %2$s\nPercent: %3$s\nPeriod: %4$s</string>
+    <string name="request_for_a_loan">Request for a loan</string>
+    <string name="enter_your_phone_number">Enter your phone number</string>
+    <string name="enter_your_last_name">Enter your last name</string>
+    <string name="enter_your_name">Enter your firs name</string>
+    <string name="specify_the_loan_amount">Specify the loan amount</string>
+    <string name="max_amount_percent_period">Max amount: \nPercent: \nPeriod:</string>
+    <string name="digits_edit">0123456789</string>
+    <string name="loan_status_for_fragment">Loan status: %1$s</string>
+    <string name="all_date_loan_for_fragment">Registration date: %1$s\nAmount: %2$s\nPeriod: %3$s\nPercent: %4$s\nFirst Name: %5$s\nLast Name: %6$s\nId: %7$s\nPhone Number: %8$s</string>
+    <string name="registration_date_amount_period">Registration date: \nAmount -</string>
+    <string name="registration_date_all">Registration date: \nAmount: \nPeriod:\nPercent:\nFirst Name: \nLast Name: \nState:\nId:\nPhone Number:</string>
+    <string name="how_to_get_a_loan">How to get a loan:</string>
+    <string name="to_get_a_loan_you_need">To get a loan, you need to contact any employee at the bank and provide an identification number</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="unknown_failed">"Unknown"</string>
+    <string name="registration_user_message">Registration user: %1$s\n\nRole: %2$s</string>
+
+    <string name="invalid_request_400">Invalid request</string>
+    <string name="incorrect_authorization_401">Incorrect authorization data has been entered</string>
+    <string name="no_access_to_the_resource_403">There is no access to the resource</string>
+    <string name="resource_is_missing_404">We haven\'t seen them yet, try to register</string>
+    <string name="method_not_allowed_405">Method not allowed</string>
+    <string name="enter_the_amount_500">Method not allowed</string>
+    <string name="unknown_error_0">Unknown error</string>
+
+    <string name="welcome">Welcome</string>
+    <string name="close">close</string>
+    <string name="loan_status">Loan status:</string>
+
+    <string name="registered">Registered</string>
+    <string name="approved">Approved</string>
+    <string name="rejected">Rejected</string>
+    <string name="unknown_state">Status error</string>
+
+    <string name="onboarding_welcome_title">Welcome!</string>
+    <string name="onboarding_welcome_message">It seems like you are just getting started.\nLet\'s learn how you can get the most of this app!</string>
+
+    <string name="onboarding_step1_title">Step one</string>
+    <string name="onboarding_step1_message">To take out a loan, click \"on the Apply for a personal loan\" button</string>
+
+    <string name="onboarding_step2_title">Step two</string>
+    <string name="onboarding_step2_message">Read the terms and conditions</string>
+
+    <string name="onboarding_step3_title">Step three</string>
+    <string name="onboarding_step3_message">Enter your personal data, taking into account the proposed conditions, to register an application. \nThen click on the \"Request for a loan\" button</string>
+
+    <string name="onboarding_step4_title">Step four</string>
+    <string name="onboarding_step4_message">Check out the application status and how to get a loan</string>
+
+    <string name="onboarding_step5_title">Step five</string>
+    <string name="onboarding_step5_message">The first screen displays a list of your applications, you can view each by clicking on it</string>
+
+    <string name="language_ru">Ru</string>
+    <string name="language_en">En</string>
+
+    <string name="save_str">Save</string>
+
+    <string name="send_message_str">It is necessary to repay your loan from:</string>
+</resources>

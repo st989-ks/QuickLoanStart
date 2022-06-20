@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_main"
+    app:startDestination="@id/nav_start">
+
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="com.pipe.quickloanstart.ui.fragments.Login"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login">
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_start"
+        android:name="com.pipe.quickloanstart.ui.fragments.Start"
+        android:label="fragment_start"
+        tools:layout="@layout/fragment_start">
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_loan_status"
+        android:name="com.pipe.quickloanstart.ui.fragments.LoanStatus"
+        android:label="fragment_loan_status"
+        tools:layout="@layout/fragment_loan_status">
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/nav_manual"
+        android:name="com.pipe.quickloanstart.ui.fragments.Manual"
+        android:label="fragment_manual"
+        tools:layout="@layout/recycler_manual">
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_all_events"
+        android:name="com.pipe.quickloanstart.ui.fragments.EventsList"
+        android:label="fragment_all_loans_list"
+        tools:layout="@layout/fragment_all_events">
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_getLoan"
+        android:name="com.pipe.quickloanstart.ui.fragments.GetLoan"
+        android:label="fragment_get_loan"
+        tools:layout="@layout/fragment_get_loan">
+    </fragment>
+</navigation>

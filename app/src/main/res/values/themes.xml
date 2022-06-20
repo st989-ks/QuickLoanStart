@@ -1,0 +1,105 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.QuickLoanStart" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorPrimaryContainer">@color/colorPrimaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/colorOnPrimaryContainer</item>
+
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <item name="colorSecondaryContainer">@color/colorSecondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/colorOnSecondaryContainer</item>
+
+        <!-- Error color. -->
+        <item name="colorError">@color/colorError</item>
+        <item name="colorOnError">@color/colorOnError</item>
+        <item name="colorErrorContainer">@color/colorErrorContainer</item>
+        <item name="colorOnErrorContainer">@color/colorOnErrorContainer</item>
+
+        <item name="colorOnBackground">@color/colorBackground</item>
+        <item name="android:colorBackground">@color/colorOnBackground</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+
+        <item name="colorSurfaceVariant">@color/colorOnSurface</item>
+        <item name="colorOnSurfaceVariant">@color/colorOnSurface</item>
+        <item name="colorOutline">@color/colorOnSurface</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/colorOnBackground</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowBackground">@color/colorOnBackground</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="Q">false</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!--    <style name="DrawerArrowStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">-->
+    <!--        <item name="spinBars">true</item>-->
+    <!--        <item name="color">@android:color/white</item>-->
+    <!--    </style>-->
+
+    <style name="ButtonOrange" parent="ThemeOverlay.Material3.Button.ElevatedButton">
+        <item name="android:layout_marginStart">@dimen/activity_vertical_margin</item>
+        <item name="android:layout_marginEnd">@dimen/activity_vertical_margin</item>
+        <item name="android:layout_marginTop">@dimen/activity_vertical_margin</item>
+        <item name="backgroundTint">@color/orange</item>
+    </style>
+
+    <style name="ButtonBlue" parent="ButtonOrange">
+        <item name="backgroundTint">@color/blue</item>
+    </style>
+
+    <style name="NotificationLayout">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">@color/colorOnSecondary</item>
+    </style>
+
+    <style name="LoginSignInput">
+        <item name="android:layout_marginLeft">@dimen/activity_vertical_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_vertical_margin</item>
+        <item name="android:layout_marginTop">@dimen/activity_vertical_margin</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:background">@color/loginSignup2InputBg</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textCursorDrawable">@drawable/login_sign_color_cursor</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+
+    <style name="FabStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="borderWidth">0dp</item>
+        <item name="elevation">4dp</item>
+        <item name="pressedTranslationZ">12dp</item>
+        <item name="rippleColor">@android:color/white</item>
+    </style>
+
+
+    <style name="Onboarding"/>
+
+    <style name="Onboarding.TextAppearance"/>
+
+    <style name="Onboarding.TextAppearance.SectionTitle">
+        <item name="android:textSize">23sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+
+    <style name="Onboarding.TextAppearance.Message" parent="Onboarding.TextAppearance.SectionTitle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorOnSecondary</item>
+    </style>
+
+
+</resources>
