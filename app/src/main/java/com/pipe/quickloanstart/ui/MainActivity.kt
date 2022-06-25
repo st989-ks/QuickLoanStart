@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onBackPressed() {
         sharedPrefs.setOnBackPressed(true)
-        if (navHostFragment.childFragmentManager.backStackEntryCount > 0) {
+        if (navHostFragment.childFragmentManager.backStackEntryCount > 0 && sharedPrefs.getToken().isNotEmpty()) {
             navigatorModule.navigateBack()
         } else {
             finish()
